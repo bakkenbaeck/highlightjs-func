@@ -3,6 +3,7 @@
   "version": "1.0.4",
   "description": "highlight.js syntax definition for the TON FunC language",
   "main": "src/func.js",
+  "types": "types/func.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +12,8 @@
     "url": "https://github.com/bakkenbaeck/highlightjs-func"
   },
   "author": "gunnar@bakkenbaeck.no",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
 }
